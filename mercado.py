@@ -2,7 +2,9 @@ from typing import List, Dict
 from time import sleep
 
 from models.produtos import Produto
-from utils.helper import formata_float_str_moeda
+
+def formata_float_str_moeda(valor: float) -> str:
+    return f'R$ {valor:,.2f}'
 
 produtos: List[Produto] = []
 carrinho: List[Dict[Produto, int]] = []
