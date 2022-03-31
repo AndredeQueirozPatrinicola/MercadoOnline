@@ -19,9 +19,9 @@ def menu() -> None:
     print('#####################################')
 
     print("Selecione uma opção abaixo: ")
-    print('1 - Cadastrar produto')
-    print('2 - Listar produto')
-    print('3 - Comprar produto')
+    print('1 - Cadastrar produtos')
+    print('2 - Listar produtos')
+    print('3 - Comprar produtos')
     print('4 - Vizualizar carrinho')
     print('5 - Fechar pedido')
     print('6 - Sair do sistema')
